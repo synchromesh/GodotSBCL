@@ -1,4 +1,6 @@
 # SPDX-License-Identifier: Unlicense
+# CMakeLists.txt for GodotSBCL.
+# File Created: 12 February 2025
 
 cmake_minimum_required( VERSION 3.22 )
 
@@ -27,7 +29,7 @@ if ( APPLE )
 endif()
 
 # Main project information
-project( GDExtensionTemplate
+project( GodotSBCL
     LANGUAGES
         CXX
     VERSION
@@ -140,3 +142,5 @@ target_link_libraries( ${PROJECT_NAME}
     PRIVATE
         godot-cpp
 )
+
+# End of CMakeLists.txt

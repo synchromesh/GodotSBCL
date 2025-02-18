@@ -1,0 +1,10 @@
+C:/Users/john/src/ngake/GodotSBCL/build/CMakeFiles/GodotSBCL.dir
+C:/Users/john/src/ngake/GodotSBCL/build/CMakeFiles/INSTALL.dir
+C:/Users/john/src/ngake/GodotSBCL/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/john/src/ngake/GodotSBCL/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/john/src/ngake/GodotSBCL/build/src/CMakeFiles/INSTALL.dir
+C:/Users/john/src/ngake/GodotSBCL/build/templates/CMakeFiles/templates.dir
+C:/Users/john/src/ngake/GodotSBCL/build/templates/CMakeFiles/INSTALL.dir
+C:/Users/john/src/ngake/GodotSBCL/build/extern/godot-cpp/CMakeFiles/godot-cpp.dir
+C:/Users/john/src/ngake/GodotSBCL/build/extern/godot-cpp/CMakeFiles/INSTALL.dir
+C:/Users/john/src/ngake/GodotSBCL/build/extern/godot-cpp/CMakeFiles/ALL_BUILD.dir

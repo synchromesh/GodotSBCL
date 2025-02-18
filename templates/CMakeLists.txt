@@ -1,4 +1,6 @@
 # SPDX-License-Identifier: Unlicense
+# CMakeLists.txt for GodotSBCL/templates.
+# File Created: 12 February 2025
 
 add_custom_target( templates
     SOURCES
@@ -39,3 +41,5 @@ unset( BUILD_TYPE )
 unset( GD_EXTENSION_FILE )
 unset( GD_EXTENSION_FILE_INPUT )
 unset( LIB_PREFIX )
+
+# End of CMakeLists.txt

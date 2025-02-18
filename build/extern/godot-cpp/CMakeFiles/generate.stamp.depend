@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPython/Support.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPython3.cmake
+C:/Users/john/src/ngake/GodotSBCL/build/CMakeFiles/cmake.verify_globs
+C:/Users/john/src/ngake/GodotSBCL/extern/godot-cpp/CMakeLists.txt
+C:/Users/john/src/ngake/GodotSBCL/extern/godot-cpp/cmake/GodotCompilerWarnings.cmake
