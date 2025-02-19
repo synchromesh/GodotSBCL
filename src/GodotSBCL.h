@@ -2,7 +2,8 @@
  * File Created: 6 January 2025
  * Author: John Pallister <john@synchromesh.com>
  * Ref: https://github.com/asmaloney/GDExtensionTemplate
- * Ref: https://docs.godotengine.org/en/latest/tutorials/scripting/gdextension/gdextension_cpp_example.html#creating-a-simple-plugin
+ * Ref:
+ * https://docs.godotengine.org/en/latest/tutorials/scripting/gdextension/gdextension_cpp_example.html#creating-a-simple-plugin
  *
  */
 
@@ -12,20 +13,18 @@
 
 #include <godot_cpp/classes/object.hpp>
 
-//namespace godot { class ClassDB; }
-
 class GodotSBCL : public godot::Object {
-	GDCLASS( GodotSBCL, godot::Object )
+  GDCLASS(GodotSBCL, godot::Object)
 
-protected:
-	static void _bind_methods();
+ protected:
+  static void _bind_methods();
 
-public:
-	static godot::String version();
-	static godot::String godotCppVersion();
+ public:
+  static godot::String version();
+  static godot::String godotCppVersion();
 
-	//GodotSBCL();
-	//~GodotSBCL();
+  // GodotSBCL();
+  //~GodotSBCL();
 };
 
 #endif
