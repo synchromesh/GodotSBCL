@@ -8,7 +8,7 @@ compatibility_minimum = 4.4
 reloadable = true
 
 [icons]
-Example = "icons/GodotSBCL.svg"
+GodotSBCL = "icons/GodotSBCL.svg"
 
 [libraries]
 linux.release.x86_64 = "lib/Linux-x86_64/libGodotSBCL.so"

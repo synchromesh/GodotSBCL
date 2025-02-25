@@ -1,3 +1,13 @@
 CMakeLists.txt.user
 .vscode/settings.json
 build/.vs/
+build/Debug/
+build/gen/Version.h
+build/GodotSBCL.dir/
+build/GodotSBCL/icons/
+build/GodotSBCL/lib/
+build/extern/godot-cpp/bin/
+build/extern/godot-cpp/gen/
+build/extern/godot-cpp/godot-cpp.dir/
+build/templates/x64/
+build/x64/

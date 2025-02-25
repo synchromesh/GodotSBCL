@@ -25,21 +25,21 @@
 #define GODOTSBCL_VERSION  GODOTSBCL_VERSION_CHECK( 0, 1, 0 )
 
 namespace VersionInfo {
-    // Project name and version as a string.
-    // This is generated using the project name from the cmake project macro and the current git commit information.
-    //
-    // It uses the form "<project name> <last tag>-<# commits since last tag>-<short commit hash>".
-    // If there are no commits since the last tag, only the tag is shown.
-    constexpr std::string_view VERSION_STR = "GodotSBCL 26ca1ef";
+  // Project name and version as a string.
+  // This is generated using the project name from the cmake project macro and the current git commit information.
+  //
+  // It uses the form "<project name> <last tag>-<# commits since last tag>-<short commit hash>".
+  // If there are no commits since the last tag, only the tag is shown.
+  constexpr std::string_view VERSION_STR = "GodotSBCL a6b3463";
 
-    // The version information as a string.
-    // This is generated using the current git commit information.
-    //
-    // It uses the form "<last tag>-<# commits since last tag>-<short commit hash>".
-    // If there are no commits since the last tag, only the tag is shown.
-    constexpr std::string_view VERSION_SHORT_STR = "26ca1ef";
+  // The version information as a string.
+  // This is generated using the current git commit information.
+  //
+  // It uses the form "<last tag>-<# commits since last tag>-<short commit hash>".
+  // If there are no commits since the last tag, only the tag is shown.
+  constexpr std::string_view VERSION_SHORT_STR = "a6b3463";
 
-    // The full git SHA1 hash as a string.
-    // This is generated using the current git commit information.
-    constexpr std::string_view GIT_SHA1_STR = "26ca1efb3b9c2e0b3039fc4c54bf029a545ba6ec";
+  // The full git SHA1 hash as a string.
+  // This is generated using the current git commit information.
+  constexpr std::string_view GIT_SHA1_STR = "a6b3463c22ac74c0709ffc38c44261908c6368d3";
 }
