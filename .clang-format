@@ -60,9 +60,9 @@ AlignConsecutiveTableGenDefinitionColons:
   PadOperators:    false
 AlignEscapedNewlines: Left
 AlignOperands:   Align
-AlignTrailingComments:
+# AlignTrailingComments:
   # Kind:            Always
-  OverEmptyLines:  0
+  # OverEmptyLines:  0
 AllowAllArgumentsOnNextLine: true
 AllowAllParametersOfDeclarationOnNextLine: true
 AllowBreakBeforeNoexceptSpecifier: Never
