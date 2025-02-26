@@ -6,20 +6,24 @@
 #+export_exclude_tags: exclude noexport
 #+tags: export noexport
 
-#+html:<p align="right"><img alt="license" src="https://img.shields.io/github/license/synchromesh/GodotSBCL"/> #+html:<img alt="build" src="https://github.com/synchromesh/GodotSBCL/actions/workflows/main.yml/badge.svg"/>
-#+html:<img src="https://img.shields.io/badge/Org-Document-%2377aa99?logo=org&logoColor=white"/>
-#+html:<img src="https://img.shields.io/badge/Made_with-Emacs-blueviolet.svg?logo=GNU%20Emacs&logoColor=white"/></p>
+#+html:<p align="right">
+#+html:<img alt="license" src="https://img.shields.io/github/license/synchromesh/GodotSBCL"/>
+#+html:<img alt="build" src="https://github.com/synchromesh/GodotSBCL/actions/workflows/main.yml/badge.svg"/>
+#+html:<img alt="org" src="https://img.shields.io/badge/Org-Document-%2377aa99?logo=org&logoColor=white"/>
+#+html:<img alt="emacs" src="https://img.shields.io/badge/Made_with-Emacs-blueviolet.svg?logo=GNU%20Emacs&logoColor=white"/>
+#+html:</p>
 
-* GodotSBCL - Steel Bank Common Lisp in the Godot game engine
+* GodotSBCL - Common Lisp for Godot
 
 ** Introduction
 This is my project to embed [[https://sbcl.org][SBCL]] into [[https://godot.org][Godot 4]] as a GDExtension using
 [[https://github.com/quil-lang/sbcl-librarian][sbcl-librarian]].
 
 ** Links
-- [[https://github.com/synchromesh/GodotTerm][GodotTerm]] - a remote terminal interface for Godot, so I can have Emacs and
-  SLIME in Godot.
+- [[https://github.com/synchromesh/GodotTerm][GodotTerm]] - a remote terminal interface for Godot, so I can have [[https://www.gnu.org/software/emacs/][Emacs]] and
+  [[https://slime.common-lisp.dev/][SLIME]] in Godot.
 - [[https://ngake.net/][Ngake]] project website.
 - [[https://github.com/asmaloney/GDExtensionTemplate][GDExtensionTemplate]] by [[https://github.com/asmaloney][Andy Maloney]], so I can have [[https://cmake.org/cmake/help/latest/manual/cmake-generators.7.html#visual-studio-generators][Visual Studio project files]].
 - [[https://github.com/noncog/github-org-mode-hacks][github-org-mode-hacks]] by [[https://github.com/noncog][Jake Turner]] (for this page).
 
+# End of README.org
