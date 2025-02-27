@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        build_type: ['Debug', 'Release']
+        build_type: ['Release']
         config:
           - { name: '🍏 macOS Clang', os: macos-latest }
           - { name: '🐧 Linux GCC', os: ubuntu-latest }
@@ -62,30 +62,38 @@ jobs:
           max-size: '10G'
           key: ${{ matrix.config.os }}-${{ matrix.build_type }}
 
+      # - name: ccache (Windows)
+      #   if: matrix.config.os == 'windows-latest'
+      #   uses: hendrikmuhs/ccache-action@v1.2
+      #   with:
+      #     max-size: '10G'
+      #     key: ${{ matrix.config.os }}-${{ matrix.build_type }}
+      #     variant: sccache
+
       - name: Configure
         run: >
-          mkdir GDExtension-build
+          mkdir GodotSBCL-build
 
           cmake
-          -B GDExtension-build
+          -B GodotSBCL-build
           -G "Ninja"
           -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
           --install-prefix ${{ github.workspace }}/install-${{ matrix.build_type }}
           .
 
       - name: Build
-        run: cmake --build GDExtension-build
+        run: cmake --build GodotSBCL-build
 
       - name: Install
-        run: cmake --install GDExtension-build
+        run: cmake --install GodotSBCL-build
 
-      - name: Upload artifact (Debug)
-        if: matrix.build_type == 'Debug'
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ github.event.repository.name }}-${{ matrix.config.os }}-Debug
-          path: |
-            ${{ github.workspace }}/install-${{ matrix.build_type }}/*
+      # - name: Upload artifact (Debug)
+      #   if: matrix.build_type == 'Debug'
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: ${{ github.event.repository.name }}-${{ matrix.config.os }}-Debug
+      #     path: |
+      #       ${{ github.workspace }}/install-${{ matrix.build_type }}/*
 
       - name: Upload artifact (Release)
         if: matrix.build_type == 'Release'
